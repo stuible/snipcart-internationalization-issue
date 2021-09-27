@@ -40,7 +40,8 @@ export default {
     locales: {
       en: {
         "cart": {
-          "loading": "We're getting your bag ready...",
+          "loading": "We're getting your bag ready...", // The apostrophe breaks the build!
+          // "loading": "We are getting your bag ready...", // This would work...
         }
       }
     },
